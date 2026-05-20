@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "name": "Total Knee Replacement",
+      "relevantSpecialty": "Orthopedic",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"},
+      "medicalSpecialty": "Orthopedic"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Total Hip Replacement",
+      "relevantSpecialty": "Orthopedic",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Fracture Fixation Surgery",
+      "relevantSpecialty": "Orthopedic",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "DiagnosticTest",
+      "name": "Treadmill Test (TMT)",
+      "relevantSpecialty": "Cardiology",
+      "usedToDiagnose": "Coronary Artery Disease",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "DiagnosticTest",
+      "name": "ECG / Electrocardiogram",
+      "relevantSpecialty": "Cardiology",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Coronary Angioplasty with Stenting",
+      "relevantSpecialty": "Cardiology",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Pacemaker Implantation",
+      "relevantSpecialty": "Cardiology",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "TAVR / TAVI",
+      "relevantSpecialty": "Cardiology",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Pelvi-acetabular Reconstruction",
+      "relevantSpecialty": "Orthopedic",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Arthroscopy",
+      "relevantSpecialty": "Orthopedic",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "DiagnosticTest",
+      "name": "Holter Monitoring",
+      "relevantSpecialty": "Cardiology",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    },
+    {
+      "@type": "DiagnosticTest",
+      "name": "ABPM",
+      "relevantSpecialty": "Cardiology",
+      "provider": {"@id": "https://sukhkartahospital.com/#hospital"}
+    }
+  ]
+}

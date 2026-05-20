@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Physician",
+      "@id": "https://sukhkartahospital.com/doctors/dr-gunjan-r-dhundele#physician",
+      "name": "Dr. Gunjan R. Dhundele",
+      "honorificPrefix": "Dr.",
+      "givenName": "Gunjan",
+      "familyName": "Dhundele",
+      "jobTitle": "Consultant Joint Replacement and Pelvi-acetabular Reconstructive Surgeon",
+      "medicalSpecialty": "Orthopedic",
+      "description": "M.B.B.S., D. Ortho Gold Medalist, DNB Orthopaedics, MNAMS, FJRS. 15+ years experience.",
+      "url": "https://sukhkartahospital.com/doctors/dr-gunjan-r-dhundele",
+      "telephone": "+917057469651",
+      "image": "https://sukhkartahospital.com/images/dr-gunjan-placeholder.svg",
+      "knowsLanguage": ["en", "hi", "kn", "mr"],
+      "award": [
+        "Best Paper Award - MP Ortho Association Conference, Pachmarhi, 2017",
+        "Gold Medal - Diploma in Orthopaedics, 2013"
+      ],
+      "alumniOf": [
+        { "@type": "EducationalOrganization", "name": "NKP Salve Institute of Medical Sciences and Lata Mangeshkar Hospital, Nagpur" },
+        { "@type": "EducationalOrganization", "name": "Kasturba Medical College, Manipal" },
+        { "@type": "EducationalOrganization", "name": "National Board of Education / Ruby Hall Clinic, Pune" },
+        { "@type": "EducationalOrganization", "name": "Deenanath Mangeshkar Hospital, Pune" },
+        { "@type": "EducationalOrganization", "name": "National Academy of Medical Sciences, New Delhi" }
+      ],
+      "worksFor": { "@id": "https://sukhkartahospital.com/#hospital" },
+      "needs_confirmation": {
+        "photo_asset": "Placeholder portrait is currently in use until hospital-approved doctor photo is provided"
+      },
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "name": "MBBS", "dateCreated": "2010" },
+        { "@type": "EducationalOccupationalCredential", "name": "D. Ortho (Gold Medalist)", "dateCreated": "2013" },
+        { "@type": "EducationalOccupationalCredential", "name": "DNB Orthopaedics", "dateCreated": "2016" },
+        { "@type": "EducationalOccupationalCredential", "name": "Fellowship in Joint Replacement", "dateCreated": "2018" },
+        { "@type": "EducationalOccupationalCredential", "name": "MNAMS", "dateCreated": "2018" }
+      ]
+    },
+    {
+      "@type": "Physician",
+      "@id": "https://sukhkartahospital.com/doctors/dr-tanu-dhundele#physician",
+      "name": "Dr. Tanu Dhundele",
+      "honorificPrefix": "Dr.",
+      "givenName": "Tanu",
+      "familyName": "Dhundele",
+      "jobTitle": "DM Cardiology Consultant & Interventional Cardiologist",
+      "medicalSpecialty": "Cardiology",
+      "description": "MBBS Gold Medalist, MD General Medicine Gold Medalist, DM Cardiology.",
+      "url": "https://sukhkartahospital.com/doctors/dr-tanu-dhundele",
+      "telephone": "+919644363105",
+      "image": "https://sukhkartahospital.com/images/dr-tanu-placeholder.svg",
+      "email": "tanug688@gmail.com",
+      "knowsLanguage": ["en", "hi", "mr"],
+      "award": [
+        "Gold Medal - MBBS",
+        "Gold Medal - MD General Medicine"
+      ],
+      "worksFor": { "@id": "https://sukhkartahospital.com/#hospital" },
+      "needs_confirmation": {
+        "photo_asset": "Placeholder portrait is currently in use until hospital-approved doctor photo is provided",
+        "education_history": "Institution names and graduation years are provisional and should be confirmed directly by the hospital"
+      },
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "name": "MBBS (Gold Medalist)" },
+        { "@type": "EducationalOccupationalCredential", "name": "MD General Medicine (Gold Medalist)" },
+        { "@type": "EducationalOccupationalCredential", "name": "DM Cardiology" }
+      ]
+    }
+  ]
+}

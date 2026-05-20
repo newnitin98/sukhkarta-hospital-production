@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Hospital", "MedicalClinic", "LocalBusiness"],
+      "@id": "https://sukhkartahospital.com/#hospital",
+      "name": "Sukhkarta Hospital Orthopaedic and Cardiac Care Centre",
+      "alternateName": "Sukhkarta Hospital",
+      "url": "https://sukhkartahospital.com",
+      "logo": "https://sukhkartahospital.com/images/logo_final.png",
+      "telephone": [
+        "+917057469651",
+        "+919552106490",
+        "+918208591540",
+        "+919644363105",
+        "+917509491094"
+      ],
+      "email": [
+        "sukhkartahospitalsaoner@gmail.com",
+        "tanug688@gmail.com"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Near Balaji Lawn, Opp. Mauli Navnirman Co-op, Mohta Layout, Saoner, Dist. Nagpur.",
+        "addressLocality": "Saoner",
+        "addressRegion": "Maharashtra",
+        "postalCode": "441107",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "21.3884",
+        "longitude": "78.9201"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "12:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Sunday"],
+          "opens": "00:00",
+          "closes": "00:00"
+        }
+      ],
+      "medicalSpecialty": ["Orthopedic", "Cardiology"],
+      "hasStaff": [
+        { "@id": "https://sukhkartahospital.com/doctors/dr-gunjan-r-dhundele#physician" },
+        { "@id": "https://sukhkartahospital.com/doctors/dr-tanu-dhundele#physician" }
+      ],
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Modular Operation Theatre", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "ICU", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "X-Ray", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Physiotherapy", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Pharmacy", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Wheelchair Accessible", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "UPI Payment", "value": true }
+      ],
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, UPI",
+      "hasMap": "https://www.google.com/maps/search/Sukhkarta+Hospital+Saoner+Nagpur",
+      "needs_confirmation": {
+        "gallery_images": "Phase 1 gallery uses representative AI-generated visuals until hospital-approved facility photos are provided"
+      }
+    }
+  ]
+}

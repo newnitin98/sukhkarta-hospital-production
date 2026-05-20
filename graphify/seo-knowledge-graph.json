@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "site": "sukhkartahospital.com",
+  "primaryKeywords": [
+    "orthopaedic hospital Saoner",
+    "cardiologist Saoner",
+    "TMT test Saoner",
+    "ECG test Nagpur",
+    "joint replacement Nagpur",
+    "fracture treatment Saoner",
+    "Sukhkarta Hospital Saoner",
+    "Dr Gunjan Dhundele",
+    "Dr Tanu Dhundele cardiologist",
+    "cardiac hospital Saoner",
+    "interventional cardiologist Nagpur district",
+    "knee replacement Nagpur",
+    "hip replacement Nagpur",
+    "heart specialist Saoner"
+  ],
+  "localSEOTargets": {
+    "primary": "Saoner",
+    "secondary": "Nagpur",
+    "district": "Nagpur District",
+    "state": "Maharashtra",
+    "country": "India"
+  },
+  "pages": {
+    "/": {"priority": 1.0, "targetKeywords": ["Sukhkarta Hospital", "orthopaedic cardiac Saoner"]},
+    "/orthopaedic-care": {"priority": 0.9, "targetKeywords": ["orthopaedic Saoner", "joint replacement Nagpur"]},
+    "/cardiac-care": {"priority": 0.9, "targetKeywords": ["cardiologist Saoner", "angioplasty Nagpur"]},
+    "/tmt-test": {"priority": 0.9, "targetKeywords": ["TMT test Saoner", "treadmill test Nagpur"]},
+    "/doctors/dr-gunjan-r-dhundele": {"priority": 0.9, "targetKeywords": ["Dr Gunjan Dhundele orthopaedic"]},
+    "/doctors/dr-tanu-dhundele": {"priority": 0.9, "targetKeywords": ["Dr Tanu Dhundele cardiologist"]},
+    "/contact": {"priority": 0.9, "targetKeywords": ["book appointment Saoner hospital"]}
+  },
+  "schemaTypes": [
+    "Hospital",
+    "MedicalClinic",
+    "LocalBusiness",
+    "Physician",
+    "MedicalTherapy",
+    "DiagnosticTest",
+    "FAQPage",
+    "BreadcrumbList"
+  ]
+}

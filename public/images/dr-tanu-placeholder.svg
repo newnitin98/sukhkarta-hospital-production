@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder portrait for Dr. Tanu Dhundele</title>
+  <desc id="desc">Rose placeholder card indicating that the hospital will provide an approved doctor photograph later.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffe4e6"/>
+      <stop offset="100%" stop-color="#fecdd3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="960" rx="48" fill="url(#bg)"/>
+  <circle cx="400" cy="300" r="132" fill="#b91c1c" opacity="0.14"/>
+  <circle cx="400" cy="270" r="92" fill="#dc2626" opacity="0.75"/>
+  <path d="M240 560c42-93 117-140 160-140s118 47 160 140v78H240Z" fill="#dc2626" opacity="0.75"/>
+  <rect x="84" y="706" width="632" height="164" rx="28" fill="#fff"/>
+  <text x="400" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#991b1b">Dr. Tanu Dhundele</text>
+  <text x="400" y="804" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#334155">Interventional Cardiologist</text>
+  <text x="400" y="838" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Hospital-approved portrait pending</text>
+</svg>
