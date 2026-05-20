@@ -72,11 +72,11 @@ export default function Header() {
                 priority
               />
             </div>
-            <div className="hidden sm:block">
-              <div className="text-base font-bold text-brand-blue-700 leading-tight font-display">
+            <div className="flex flex-col">
+              <div className="text-sm sm:text-base font-bold text-brand-blue-700 leading-tight font-display">
                 Sukhkarta Hospital
               </div>
-              <div className="text-xs text-gray-500 leading-tight">
+              <div className="text-[10px] sm:text-xs text-gray-500 leading-tight">
                 Orthopaedic & Cardiac Care Centre
               </div>
             </div>
